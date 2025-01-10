@@ -2,10 +2,24 @@
 
 ## Basic HTML Tags
 
-HTML stands for HyperText Markup Language. It is the standard language used to create and structure content on the web.
+**What is HTML?**
 
-HTML is a markup language, not a programming language, meaning it annotates text to define how it is structured and displayed by web browsers.
-It forms the building blocks of all websites and is complemented by CSS for style and JavaScript for interactivity.
+- HTML stands for Hyper Text Markup Language. 
+- It is the standard language used to create and structure content on the web document or web page.
+- HTML is a markup language, not a programming language, meaning it annotates text to define how it is structured and displayed by web browsers.
+- It forms the building blocks of all websites and is complemented by CSS for style and JavaScript for interactivity.
+- HTML consist of elements by which the web content can be structured.
+
+**Why to use HTML**
+
+- HTML is standard markup language for creating web document / webpages.
+- HTML describes the structure of a webpage document.
+
+**How to use HTML**
+
+- HTML consists of series of elements with the help of which a content can be described.
+- HTML elements are understood by browsers and tell them how to display the content.
+- HTML element label pieces of content 
 
 ```html
 <!DOCTYPE html>
@@ -165,7 +179,7 @@ HTML tables provide an option to arrange data into rows and columns, making it e
 
 ## HTML Forms
 
-HTML forms are used to collect user input through interactive options. There are several type of HTML forms used such as text fields, numeric inputs, email field, password field, checkboxes, radio buttons, range slider, buttons, etc.
+HTML forms are used to collect user input through interactive options. There are several types of HTML forms used such as text fields, numeric inputs, email field, password field, checkboxes, radio buttons, range slider, buttons, etc.
 
 <table>
 <tr>
@@ -286,3 +300,140 @@ In HTML forms, various input types are used to collect different types of data f
 </tr>
 <tr></tr>
 </table>
+
+heading 
+paragraph
+link
+
+<html>
+<head>
+<title>My first page</title>
+</head>
+<body>
+
+<p>Hello</p>
+<p>Hello</p>
+<p>Hello</p>
+
+<h1>Heading</h1>
+<h2>Heading</h2>
+<h3>Heading</h3>
+<h4>Heading</h4>
+<h5>Heading</h5>
+<h6>Heading</h6>
+
+<img src="logo.png" height='250px' width='250px'>
+
+<br>
+
+<a href="http://www.apple.com/">I am a link</a>
+
+<a href="http://www.apple.com/">
+    <img src="logo.png" height='250px' width='250px'>
+</a>
+
+<ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+
+<ul type="disc">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+
+<ul type="circle">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+
+<ul type="square">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+
+<ul type="none">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+
+<ol type="1">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ol>
+
+<ol type="A">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ol>
+
+<ol type="a">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ol>
+
+<ol type="i">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ol>
+
+<ol type="I">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ol>
+
+<ol type="a">
+    <li>Coffee</li>
+        <ol type="i">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ol>   
+    <li>Tea</li>
+    <li>Milk</li>
+</ol>
+
+<h3>Definition List</h3>
+<dl>
+    <dt type="">Coffee</dt>
+    <dd>Hot Coffee</dd>
+    <dd>Cold  Coffee</dd>
+    <dt type="">Tea</dt>
+    <dd>Basic Tea</dd>
+    <dd>Masala Tea</dd>
+</dl>
+
+<hr/>
+
+
+</body>
+
+</html>
+
+table properties 
+
+- **Border** - to add border for the table
+- **Align** - to set table alignment or cell alignment
+- **Width** - to set table width
+- **Cellpadding** - to set gap between content and table border
+- **Cellspacing** - to set gap between two cells or their cell borders.
+- **Rowspan** - to expand cell over multiple rows
+- **Colspan** - to expand cell over multiple columns.
+- **Background-color** - to 
+
+Scope for HTML tags
+
+Some tags in HTML have block scope such as Heading tags, paragraph tags, div tags.
+
+Some tags in HTML have inline scope such as anchor link tags, span tag,
+
