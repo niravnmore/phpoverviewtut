@@ -17,10 +17,10 @@ Thank you again for giving me this opportunity.
 Q2. Why should I hire you?
 
 ```
-You should hire me because I bring a strong combination of skills, adaptability, and dedication towards my work. I quickly learn new processes, thrive in fast-paced environments, am able to contribute to a team and excel at problem-solving. I also have past experience with the domain related to this job and I understand the domain structure well.
+You should hire me because I bring a strong combination of skills, adaptability, and dedication towards my work. I quickly learn new processes, thrive in fast-paced environments, am able to contribute to a team and excel at problem-solving. I also have past experience with the domains related to this job and I understand the domain structure well.
 
 
-I understand the working culture of the software industry from various of my previous experiences and understand the importance of following strict timelines. I always remain committed to deliver something more than the expected results. I can effectively contribute towards growth of the output of your workforce.
+I understand the working culture of the software industry from various of my previous experiences and understand the importance of following strict timelines. I always remain committed to deliver something more than the expected results. I can effectively contribute towards increase in the output of your workforce.
 ```
 
 Q3. What are your strengths and weaknesses?
@@ -89,15 +89,15 @@ My short-term goal is to get a job with a good pay in a reputed company and my l
 Q11. What motivates you to do good job?
 
 ```
-I am a morally obligated person, and I would like to thank my parents for the education of instilling these values in me.
-I believe that those who have achieved great things, that a difference, did so by consistently doing the right thing, rather than relying on motivation, which I see as a temporary burst of energy that eventually fades.
+I am a morally obligated person, and I would like to thank my parents for the education and for instilling these values in me.
+I believe that those who have achieved great things, that makes a difference, did so by consistently doing the right thing, rather than relying on motivation, which I see as a temporary burst of energy that eventually fades.
 I firmly believe in doing what is right and have a 'just do it' mentality. I don't depend on fleeting motivation, as I think the actions we take, without an external motivation, are a testament of our resilience and character.
 ```
 
 Q12. What makes you angry?
 
 ```
-I do get angry when I am interrupted by others while I am doing my work, the interruption is also for insignificant reasons.
+I do get angry when I am interrupted by others while I am doing my work, and the interruptions are for insignificant reasons.
 I do get angry when a person is not able to understand a clear and simple communication.
 I do get angry a lot and it is always visible but it does not stay there for more than a few seconds.
 I rarely over express my anger.
@@ -128,11 +128,9 @@ It is our adaptability and ability to learn new things that helps us diversify o
 Q16. Describe your ideal company, location and job.
 
 ```
-I am a pragmatic person striving for idealism. I believe that an ideal company fosters competitiveness while encouraging individual growth, which in turn contributes to the company's success.
-
+I am a pragmatic person. I believe that an ideal company fosters competitiveness while encouraging individual growth, which in turn contributes to the company's success.
 
 An ideal workplace is an environment where merit is recognized and discipline is valued, and where a healthy competitive culture drives the growth of both individuals and the organization.
-
 
 My ideal job is one aligned with my passions, a role where I can thrive, be challenged, and grow both physically and mentally—ultimately making me a better person.
 ```
@@ -141,7 +139,6 @@ Q17. What are your career options right now?
 
 ```
 I have 7 years of experience in Software Quality Analysis distributed over several domains and have also worked at a senior position with 5 team members working under me.
-
 
 I think I will be able to contribute better through a developer profile.
 I have had experience with coding and developing my personal projects and some freelancing projects. However, I lack a formal exposure in this profile. I have recently acquired a certification as a proof of my skills. I am sure I will be able to make a valuable contribution to a company.

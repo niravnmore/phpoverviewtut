@@ -1,0 +1,72 @@
+body {
+    margin:0px;
+}
+
+.header{
+    width:100%;
+    height:80px;
+    text-align:center;
+    color:black;
+    background-color:lightgray;
+    float:left;
+}
+
+.navbar{
+    width:100%;
+    height:50px;
+    text-align:left;
+    color:white;
+    background-color:gray;
+    float:left;
+    align-content: center;
+}
+
+.navbar a{
+    padding: 15px;
+    color:white;
+}
+
+.sidebar{
+    width:15%;
+    height:500px;
+    color:blue;
+    background-color:lightgray;
+    float:left;
+}
+
+.sidebar div{
+    padding: 25px;
+}
+
+.sidebar a{
+    color:black;
+}
+
+.mainbar{
+    width:70%;
+    height:500px;
+    color:white;
+    background-color:darkblue;
+    float:left;
+    justify-content: center;
+}
+
+.mainbar h1, p{
+    padding:15px;
+}
+
+.mainbar table{
+    margin:15px;
+}
+
+.footer{
+    width:100%;
+    height:50px;
+    color:white;
+    background-color:black;
+    float:left;
+}
+
+a{
+    text-decoration: none; 
+}

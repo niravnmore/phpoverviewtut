@@ -437,3 +437,18 @@ Some tags in HTML have block scope such as Heading tags, paragraph tags, div tag
 
 Some tags in HTML have inline scope such as anchor link tags, span tag,
 
+Form Validation
+```
+First name: <br>
+<input type="text" name="firstname" required>
+<br>
+Quantity (between 1 and 5):
+<input type="number" name="quantity" min="1" max="5"><br>
+minlength
+<input type="password" name="password" minlength="8"><br>
+maxlength
+<input type="password" name="password" maxlength="8"><br>
+email : @
+<input type="email" name="email"><br>
+pattern a-z<br>
+<input type="text" name="only-alpha" pattern="[a-z A-Z]+">
