@@ -5,8 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <style>
+      table, th, td {
+        border: none;
+        border-collapse: collapse;
+      }
+    </style>
   </head>
   <body>
+    
     <div class="header">
       <!-- <img src="" alt="" height="80px" width="160px"> -->
       <h2>Website name</h2>
@@ -42,40 +49,37 @@
     </div>
 
     <div class="mainbar">
-      <form action="" method="post">
-        <table>
-          <tr>
-            <td>
-              <Label name="email">Email Address</Label>
-            </td>
-            <td>
-              <input type="email" name="email" />
-            </td>
-          </tr>
-          <tr>
-            <td></td>
-          </tr>
-          <tr>
-            <td>
-              <Label name="password">Password</Label>
-            </td>
-            <td>
-              <input type="password" name="password" />
-            </td>
-          </tr>
-          <tr>
-            <td></td>
-          </tr>
-          <tr>
-            <!-- <td>
+      <div class="content">
+        <h3>Login</h3>
+        <form action="" method="post">
+          <table class="login">
+            <tr>
+              <td>
+                <Label name="email">Email Address :</Label>
+              </td>
+              <td>
+                <input type="email" name="email" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <Label name="password">Password :</Label>
+              </td>
+              <td>
+                <input type="password" name="password" />
+              </td>
+            </tr>
+            <tr>
+              <!-- <td>
               <Label name="submit">Login</Label>
             </td> -->
-            <td>
-              <input type="submit" name="submit" value="Login" />
-            </td>
-          </tr>
-        </table>
-      </form>
+              <td colspan="2">
+                <input type="submit" name="submit" value="Login" style="width: 100%;" />
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
     </div>
 
     <div class="sidebar">Sidebar 2</div>
