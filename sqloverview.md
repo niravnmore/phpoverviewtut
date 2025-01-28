@@ -38,12 +38,16 @@ CREATE :
 ```sql
 create database shop;
 
-create TABLE customers( id int PRIMARY KEY AUTO_INCREMENT, cust_name varchar(100), uses_name varchar(100), password varchar(100), email varchar(100), mob bigint(11), address varchar(255), pincode bigint(11));
+create TABLE customers( id int PRIMARY KEY AUTO_INCREMENT, cust_name varchar(100), uses_name varchar(100), 
+password varchar(100), email varchar(100), mob bigint(11), address varchar(255), pincode bigint(11));
 
 -- create
-create TABLE feedbacks( id int PRIMARY KEY AUTO_INCREMENT, fed_comment varchar(100), fed_date date, cust_id int(11), FOREIGN KEY (cust_id) REFERENCES customers(id));
+create TABLE feedbacks( id int PRIMARY KEY AUTO_INCREMENT, fed_comment varchar(100), fed_date date, 
+cust_id int(11), FOREIGN KEY (cust_id) REFERENCES customers(id));
 
-create TABLE feedback_product( id int PRIMARY KEY AUTO_INCREMENT, fed_comment varchar(100), fed_date date, cust_id int(11), FOREIGN KEY (cust_id) REFERENCES customers(id), prod_id int(11), FOREIGN KEY (prod_id) REFERENCES products(id));
+create TABLE feedback_product( id int PRIMARY KEY AUTO_INCREMENT, fed_comment varchar(100), 
+fed_date date, cust_id int(11), FOREIGN KEY (cust_id) REFERENCES customers(id), prod_id int(11), 
+FOREIGN KEY (prod_id) REFERENCES products(id));
 ```
 
 ALTER :
@@ -78,9 +82,11 @@ truncate table table_name; -- to delete all data in table and not the table stru
 INSERT :
 
 ```sql
-insert into customer(cust_name, user_name, pass, email, mobile, address, pincode, gender) values ("Akshay", akshay701, 1234, akashay@gmail.com, 5646994, ahmedanad, 380022, male)
+insert into customer(cust_name, user_name, pass, email, mobile, address, pincode, gender) 
+values ("Akshay", akshay701, 1234, akashay@gmail.com, 5646994, ahmedanad, 380022, male);
 
-insert into customer(cust_name, user_name, pass, email, mobile, address, pincode, gender) values ("RAJ", akshay701, 1234, akashay@gmail.com, 5646994, ahmedanad, 380022, male)
+insert into customer(cust_name, user_name, pass, email, mobile, address, pincode, gender) 
+values ("RAJ", akshay701, 1234, akashay@gmail.com, 5646994, ahmedanad, 380022, male);
 ```
 
 UPDATE :
@@ -241,9 +247,11 @@ types of join
 ```sql
 Select * from customer join feedback on customer.cust_id = feedback.cust_id;
 
-select feedback.*, customers.name from customer join feedback on customer.cust_id=feedback.cust_id
+select feedback.*, customers.name from customer join feedback 
+on customer.cust_id=feedback.cust_id
 
-selct * from order join customer on order.cust_id=customer.cust_id join product on order.prod_id = product.prod_id
+selct * from order join customer on order.cust_id=customer.cust_id join product 
+on order.prod_id = product.prod_id
 ```
 
 #### outer join
@@ -320,5 +328,6 @@ BEFORE DELETE =
 AFTER DELETE =
 
 ```sql
-create table reg_log( uid int(100), unm varchar(100), pass varchar(100), gen varchar(100), lag varchar(100), cid varchar(100), img varchar(100), status varchar(100), entry_date_time datetime);
+create table reg_log( uid int(100), unm varchar(100), pass varchar(100), gen varchar(100), 
+lag varchar(100), cid varchar(100), img varchar(100), status varchar(100), entry_date_time datetime);
 ```
